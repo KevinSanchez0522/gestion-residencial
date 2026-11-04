@@ -150,28 +150,6 @@ Estado verificado del proyecto:
 - `flutter test`: **All tests passed!**
 - `flutter build apk --debug`: **APK generado correctamente.**
 
-## Documentación técnica
-
-El diseño detallado, el esquema de base de datos, la arquitectura MVVM, los
-flujos y la matriz de cumplimiento están en
-[`DOCUMENTO_TECNICO.md`](DOCUMENTO_TECNICO.md).
-
-También se incluye una versión imprimible en PDF:
-[`DOCUMENTO_TECNICO.pdf`](DOCUMENTO_TECNICO.pdf) (si el archivo está presente
-en la entrega).
-
-## Limitaciones y notas académicas
-
-- La aplicación está desarrollada en **Flutter/Dart**, no en Java/Kotlin nativo
-  de Android Studio. Usa SQLite mediante `sqflite`, que es el equivalente
-  multiplataforma de `SQLiteOpenHelper`/Room. Si la asignatura exige
-  estrictamente un proyecto nativo, esta implementación debe presentarse como
-  una equivalencia tecnológica y no como un proyecto Java/Kotlin.
-- La autenticación es local al dispositivo; no hay sincronización entre
-  teléfonos ni recuperación de contraseña por correo.
-- El asistente de IA requiere el backend FastAPI configurado y conexión de red;
-  las funciones de gestión no dependen de él.
-- No se incluye el video demostrativo dentro de este repositorio.
 
 ## Licencia
 
